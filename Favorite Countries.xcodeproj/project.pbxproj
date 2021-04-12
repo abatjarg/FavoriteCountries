@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5A23CB261D312B00ABA041 /* SearchCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A23CA261D312B00ABA041 /* SearchCountryTableViewCell.swift */; };
+		4D5A23D5261E953100ABA041 /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A23D4261E953100ABA041 /* ShowDetailViewController.swift */; };
 		4DBF8AEC261BF3F70043B1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8AEB261BF3F70043B1F1 /* AppDelegate.swift */; };
 		4DBF8AEE261BF3F70043B1F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8AED261BF3F70043B1F1 /* SceneDelegate.swift */; };
-		4DBF8AF0261BF3F70043B1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8AEF261BF3F70043B1F1 /* ViewController.swift */; };
+		4DBF8AF0261BF3F70043B1F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8AEF261BF3F70043B1F1 /* MainViewController.swift */; };
 		4DBF8AF3261BF3F70043B1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF8AF1261BF3F70043B1F1 /* Main.storyboard */; };
 		4DBF8AF5261BF3F80043B1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF8AF4261BF3F80043B1F1 /* Assets.xcassets */; };
 		4DBF8AF8261BF3F80043B1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF8AF6261BF3F80043B1F1 /* LaunchScreen.storyboard */; };
 		4DBF8B03261BF3F80043B1F1 /* Favorite_CountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8B02261BF3F80043B1F1 /* Favorite_CountriesTests.swift */; };
 		4DBF8B0E261BF3F90043B1F1 /* Favorite_CountriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8B0D261BF3F90043B1F1 /* Favorite_CountriesUITests.swift */; };
+		4DBF8B22261BF9EC0043B1F1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8B21261BF9EC0043B1F1 /* SearchViewController.swift */; };
+		4DBF8B28261BFA4B0043B1F1 /* WorldBankAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8B27261BFA4B0043B1F1 /* WorldBankAPI.swift */; };
+		4DBF8B2E261BFC4F0043B1F1 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8B2D261BFC4F0043B1F1 /* APIResponse.swift */; };
+		4DBF8B33261BFD440043B1F1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8B32261BFD440043B1F1 /* APIService.swift */; };
+		4DF88947261FF15E0089153C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF88946261FF15E0089153C /* DataStore.swift */; };
+		4DF88958262219F50089153C /* MainViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF88957262219F50089153C /* MainViewControllerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D5A23CA261D312B00ABA041 /* SearchCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCountryTableViewCell.swift; sourceTree = "<group>"; };
+		4D5A23D4261E953100ABA041 /* ShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
 		4DBF8AE8261BF3F70043B1F1 /* Favorite Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite Countries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBF8AEB261BF3F70043B1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DBF8AED261BF3F70043B1F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DBF8AEF261BF3F70043B1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DBF8AEF261BF3F70043B1F1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4DBF8AF2261BF3F70043B1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DBF8AF4261BF3F80043B1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBF8AF7261BF3F80043B1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		4DBF8B09261BF3F80043B1F1 /* Favorite CountriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite CountriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBF8B0D261BF3F90043B1F1 /* Favorite_CountriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_CountriesUITests.swift; sourceTree = "<group>"; };
 		4DBF8B0F261BF3F90043B1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBF8B21261BF9EC0043B1F1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4DBF8B27261BFA4B0043B1F1 /* WorldBankAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBankAPI.swift; sourceTree = "<group>"; };
+		4DBF8B2D261BFC4F0043B1F1 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		4DBF8B32261BFD440043B1F1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		4DF88946261FF15E0089153C /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		4DF88957262219F50089153C /* MainViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,13 @@
 		4DBF8AEA261BF3F70043B1F1 /* Favorite Countries */ = {
 			isa = PBXGroup;
 			children = (
+				4DF8894E262218B60089153C /* Storage */,
+				4DF88940261FF0920089153C /* View */,
+				4DF8893F261FF08A0089153C /* Controller */,
+				4DBF8B2C261BFC2B0043B1F1 /* Model */,
+				4DBF8B26261BFA380043B1F1 /* Service */,
 				4DBF8AEB261BF3F70043B1F1 /* AppDelegate.swift */,
 				4DBF8AED261BF3F70043B1F1 /* SceneDelegate.swift */,
-				4DBF8AEF261BF3F70043B1F1 /* ViewController.swift */,
 				4DBF8AF1261BF3F70043B1F1 /* Main.storyboard */,
 				4DBF8AF4261BF3F80043B1F1 /* Assets.xcassets */,
 				4DBF8AF6261BF3F80043B1F1 /* LaunchScreen.storyboard */,
@@ -126,6 +146,50 @@
 				4DBF8B0F261BF3F90043B1F1 /* Info.plist */,
 			);
 			path = "Favorite CountriesUITests";
+			sourceTree = "<group>";
+		};
+		4DBF8B26261BFA380043B1F1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4DBF8B27261BFA4B0043B1F1 /* WorldBankAPI.swift */,
+				4DBF8B32261BFD440043B1F1 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4DBF8B2C261BFC2B0043B1F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DBF8B2D261BFC4F0043B1F1 /* APIResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DF8893F261FF08A0089153C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DBF8B21261BF9EC0043B1F1 /* SearchViewController.swift */,
+				4DBF8AEF261BF3F70043B1F1 /* MainViewController.swift */,
+				4D5A23D4261E953100ABA041 /* ShowDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DF88940261FF0920089153C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D5A23CA261D312B00ABA041 /* SearchCountryTableViewCell.swift */,
+				4DF88957262219F50089153C /* MainViewControllerTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DF8894E262218B60089153C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				4DF88946261FF15E0089153C /* DataStore.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBF8AF0261BF3F70043B1F1 /* ViewController.swift in Sources */,
+				4DF88958262219F50089153C /* MainViewControllerTableViewCell.swift in Sources */,
+				4D5A23CB261D312B00ABA041 /* SearchCountryTableViewCell.swift in Sources */,
+				4DBF8AF0261BF3F70043B1F1 /* MainViewController.swift in Sources */,
+				4DBF8B33261BFD440043B1F1 /* APIService.swift in Sources */,
 				4DBF8AEC261BF3F70043B1F1 /* AppDelegate.swift in Sources */,
+				4DF88947261FF15E0089153C /* DataStore.swift in Sources */,
+				4DBF8B22261BF9EC0043B1F1 /* SearchViewController.swift in Sources */,
 				4DBF8AEE261BF3F70043B1F1 /* SceneDelegate.swift in Sources */,
+				4D5A23D5261E953100ABA041 /* ShowDetailViewController.swift in Sources */,
+				4DBF8B2E261BFC4F0043B1F1 /* APIResponse.swift in Sources */,
+				4DBF8B28261BFA4B0043B1F1 /* WorldBankAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
